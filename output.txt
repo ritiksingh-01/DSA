@@ -1,12 +1,9 @@
-Before erase :
-1 ritik
-2 love
-3 Rishi
-12 Priyanshi
-is 12 present : 1
-after erase :
-1 ritik
-2 love
-12 Priyanshi
-2 love
-12 Priyanshi
+Before sorting : 2 4 3 
+Is 4 is in list : 1
+Lower bound of 4 : 1
+Upper bound of 4 : 3
+Max : 10
+Min : 3
+a :10
+edcba
+After sorting : 2 3 4 
