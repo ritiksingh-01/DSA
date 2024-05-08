@@ -1,1 +1,4 @@
-0 1 1 2 3 5 8
+size of queue : 4
+4 3 2 1 
+size of queue : 4
+1 2 3 4 
