@@ -1,4 +1,9 @@
-size of queue : 4
-4 3 2 1 
-size of queue : 4
-1 2 3 4 
+Before sorting : 2 4 3 
+Is 4 is in list : 1
+Lower bound of 4 : 1
+Upper bound of 4 : 3
+Max : 10
+Min : 3
+a :10
+edcba
+After sorting : 2 3 4 
