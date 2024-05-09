@@ -24,5 +24,9 @@ auto it = m.find(2);
 for (auto i = it ; i!=m.end();i++){
     cout<<(*i).first<<" "<<(*i).second<<endl;
 }
+ it = m.find(3);
+for (auto i = it ; i!=m.end();i++){
+    cout<<(*i).first<<" "<<(*i).second<<endl;
+}
     return 0;
 }
