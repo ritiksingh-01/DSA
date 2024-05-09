@@ -1,12 +1,2 @@
-Before erase :
-1 ritik
-2 love
-3 Rishi
-12 Priyanshi
-is 12 present : 1
-after erase :
-1 ritik
-2 love
-12 Priyanshi
-2 love
-12 Priyanshi
+First occurrence of 3 : 2
+Last occurrence of 3 : 3
