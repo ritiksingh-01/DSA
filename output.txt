@@ -1,2 +1,1 @@
-First occurrence of 3 : 2
-Last occurrence of 3 : 3
+Index is : 5
