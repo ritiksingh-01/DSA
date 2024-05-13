@@ -1,1 +1,1 @@
-Pivot element index is : 2
+Index is : 3
