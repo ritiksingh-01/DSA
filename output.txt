@@ -1,1 +1,2 @@
-Index is : 3
+Enter the value of n : 
+Square root of 100000 is : 316
