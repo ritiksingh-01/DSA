@@ -1,1 +1,2 @@
-Total partition b/w 2 painter : 10
+12346
+Maximum distance is : 5
