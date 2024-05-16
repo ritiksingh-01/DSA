@@ -1,1 +1,1 @@
-No. of books allocated per student : 60
+Total partition b/w 2 painter : 10

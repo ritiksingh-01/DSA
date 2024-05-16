@@ -3,7 +3,7 @@ using namespace std ;
 int isPossible(int arr[],int size , int m , int mid){
     int studentCount = 1 ;
     int pageSum = 0;
-    for (int i = 0 ; i < size ; i++)
+    for (int i = 0 ; i < size ; i++){
     if (pageSum + arr[i]<=mid){
         pageSum += arr[i];
     }
@@ -13,6 +13,7 @@ int isPossible(int arr[],int size , int m , int mid){
             return false ;
         }
         pageSum = arr[i];
+    }
     }
     return true ;
 }
