@@ -1,2 +1,1 @@
-12346
-Maximum distance is : 5
+Sorted array : 11 12 22 25 64 
