@@ -1,1 +1,1 @@
-Sorted array : 11 12 22 25 64 
+Sorted Array is : 1 2 4 5 5 
