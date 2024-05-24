@@ -1,4 +1,2 @@
 Enter Your Name : 
-Your name is Ritik
-Length of string is : 5
 Reverse is : kitiR
