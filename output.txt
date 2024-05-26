@@ -1,3 +1,1 @@
-Enter Your String : 
-Your string is 'Abcba'.
-Palindrome
+Maximum character is : t
