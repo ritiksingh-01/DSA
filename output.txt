@@ -1,1 +1,2 @@
-Maximum character is : t
+Enter a string: 
+Modified string: ritik@40singh
