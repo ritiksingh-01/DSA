@@ -1,1 +1,1 @@
-After removing all occurrence of substring: dab
+0
