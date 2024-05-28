@@ -20,7 +20,7 @@ bool permutationString(string s1, string s2) {
     int i = 0;
     int windowSize = s1.length();
     int count2[26] = {0};
-    while (i < windowSize) {
+    while (i < windowSize && i < s2.length() ) {
         int index = s2[i] - 'a';
         count2[index]++;
         i++;
