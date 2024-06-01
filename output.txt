@@ -2,5 +2,5 @@ Array is :
 1 2 3 4 
 5 6 7 8 
 9 10 11 12 
-Row wise sum is :
-10 26 42 
+The maximum sum is : 42
+Row index is : 3
