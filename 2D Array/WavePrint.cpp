@@ -21,19 +21,19 @@ vector <int> wavePrint(vector<vector<int>> arr , int n , int m){
 int main(){
 int n = 3, m = 4;
 vector<vector<int>> arr(n, vector<int>(m));
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            cin >> arr[i][j];
-        }
+for (int i = 0; i < n; i++) {
+    for (int j = 0; j < m; j++) {
+        cin >> arr[i][j];
     }
+}
 
-    cout << "Array is :" << endl;
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            cout << arr[i][j] << " ";
-        }
-        cout << endl;
+cout << "Array is :" << endl;
+for (int i = 0; i < n; i++) {
+    for (int j = 0; j < m; j++) {
+        cout << arr[i][j] << " ";
     }
+    cout << endl;
+}
 cout << "Wave order is : " << endl ;
 vector <int> ans = wavePrint(arr , 3 ,4);
 for(int i : ans){
