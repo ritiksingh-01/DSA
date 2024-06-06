@@ -27,7 +27,5 @@ for(int i = 0 ; i < 3 ; i++){
 }  
 
 printSum(arr , 3 , 4);
-
-
     return 0;
 }
