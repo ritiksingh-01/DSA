@@ -5,7 +5,7 @@ void printSum(int arr[][4] , int row , int cols){
     for(int i = 0 ; i < cols ; i++){
         int sum = 0 ;
         for(int j = 0 ; j < row ; j++){
-            sum += arr[j][i];
+             sum += arr[j][i];
         }
         cout << sum << " ";
     }
