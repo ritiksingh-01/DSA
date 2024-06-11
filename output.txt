@@ -1,2 +1,1 @@
-Spiral Matrix is : 
-1 2 3 6 9 8 7 4 5 
+Element present or not : 1
