@@ -1,1 +1,2 @@
-3 smallest element is 7
+Enter the value of a and b : 
+Gcd of 72 and 24 is 24
