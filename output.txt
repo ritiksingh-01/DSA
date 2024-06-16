@@ -1,2 +1,1 @@
-Enter the value of a and b : 
-Gcd of 72 and 24 is 24
+Product of prime number is : 210
