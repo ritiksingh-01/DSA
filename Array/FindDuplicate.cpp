@@ -22,7 +22,7 @@ int main (){
 // int arr[5] = {3,3,3,3,3};
 // int arr[10] = {2,5,9,6,9,3,8,9,7,1};
 int arr[8] = {4,3,2,7,8,2,3,1};
-int result = findDuplicate(arr , 10);
+int result = findDuplicate(arr , 8);
 cout << result ;
 
     return 0 ;

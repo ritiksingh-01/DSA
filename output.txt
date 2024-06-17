@@ -1,1 +1,1 @@
-Product of prime number is : 210
+2
