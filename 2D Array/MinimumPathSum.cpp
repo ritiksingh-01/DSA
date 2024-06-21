@@ -4,24 +4,19 @@ using namespace std;
 int minPathSum(vector<vector<int>>& grid) {
         int row = grid.size();
         int cols = grid[0].size();
-        int sum = 0;
-        // for(int i = 0 ; i < row ; i++){
-        //     for(int j = 0 ; j < i ; j++){
-        //         sum += grid[i][j];
-        //     }
-        // }
-        int i = 0 , j = 0;
-        while( i < row){
-            sum += grid[i][j];
-            j++;
+
+        for(int i = 1 ; i < row ; i++){
+            grid[i][0] += grid[i-1][0];
         }
-        i = 1;
-        j=0;
-        while(j < cols){
-            sum += grid[i][j];
-            j++;
+        for(int j = 1 ; j < cols ; j++){
+            grid[0][j] += grid[0][j-1];
         }
-        return sum;
+        for(int i = 1 ; i < row ; i++){
+            for(int j = 1 ; j <cols ; j++){
+                grid[i][j] += min(grid[i-1][j], grid[i][j-1]);
+            }
+        }
+        return grid[row -1][cols-1];
 }
 
 
