@@ -1,1 +1,12 @@
-4
+1 : 1
+2 : 2
+3 : 35
+4 : 3
+5 : 35
+6 : 35
+Size of array : 16
+Size of array : 4
+Size of array : 8
+Size of pointer : 8
+Size of pointer : 4
+Size of pointer : 8
