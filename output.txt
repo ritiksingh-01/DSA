@@ -1,8 +1,3 @@
-0x23b17ff820
-Character array : ritik
-Pointer character array : ritik
-r
-r
-0x23b17ff81a
-0x23b17ff810
-rø±#
+Sum : 
+Size : 8
+17
