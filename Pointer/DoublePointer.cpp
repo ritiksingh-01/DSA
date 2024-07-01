@@ -7,7 +7,7 @@ void update(int **p ){
 
 }
 int main(){
-    
+    /*
     int a = 5;
     int * ptr = &a;
     // cout << ptr << endl;
@@ -42,8 +42,40 @@ int main(){
   int  a = 4 ;
   int *p = &a;
   cout << (*p)++ << " " << a;
-  
 
+ float a = 12.5;
+ float b = 14.5;
+ float *ptr = &a;
+ (*ptr)++;
+ *ptr = b;
+ cout << *ptr << " " << a << " " << b ;
+ 
+
+int arr[] = {11,44,55,33};
+cout << *(arr) << " "  << *(arr+3) ;
+
+
+int arr[] = {11,44,55,33};
+int *ptr = arr;
+(*ptr)++;
+cout << *ptr ;
+
+char arr[] = "abcd";
+char *ptr = &arr[0];
+cout << ptr ;
+
+
+char arr[] = "abcd";
+char *ptr = &arr[0];
+ptr++;
+cout << ptr ;
+*/
+
+int a = 110;
+int *ptr = &a;
+int **q = &ptr;
+int b = (**q)++ + 9;
+cout << a << " " << b; 
 
     return 0;
 }
