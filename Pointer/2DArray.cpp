@@ -5,10 +5,10 @@ int main(){
     // dynamic memory allocation
     int row ;
     cin >> row;
-    int col ;
-    cin >> col;
+    int col;
     int **arr = new int *[row];
     for(int i = 0 ; i < row ; i++){
+        cin >> col;
         arr[i] = new int[col];
     }
 
