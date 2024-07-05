@@ -1,3 +1,6 @@
-Array is : 
-3 1 
-2 3 
+In a : 30
+In a : 10
+In b : 31
+In b : 10
+In main : 10
+In main : 31
