@@ -1,6 +1,2 @@
-In a : 30
-In a : 10
-In b : 31
-In b : 10
-In main : 10
-In main : 31
+4 5 
+1 2 3 4 5 
