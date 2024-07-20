@@ -3,9 +3,11 @@ using namespace std;
 
 bool binarySearch(int *arr , int s , int e , int k){
     if(s>e)
-        return -1;
-    
+        return false;
+
     int mid = s + (e-s)/2;
+    if(arr[mid] == k)
+        return true;
 
     if(arr[mid] < k)
         return binarySearch(arr,mid+1,e,k);
@@ -18,5 +20,12 @@ bool binarySearch(int *arr , int s , int e , int k){
 int main(){
     int arr[5] = {1,2,3,4,5};
     int size = 5;
-    int n = 4;
+    int n = 5;
+    bool ans = binarySearch(arr,0,4,n);
+    if(ans){
+        cout << "Found" << endl;
+    }
+    else{
+        cout << "Not Found" << endl;
+    }
 }
