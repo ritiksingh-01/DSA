@@ -18,10 +18,10 @@ bool binarySearch(int *arr , int s , int e , int k){
 }
 
 int main(){
-    int arr[5] = {1,2,3,4,5};
-    int size = 5;
+    int arr[8] = {1,2,3,4,5,6,7,9};
+    int size = 8;
     int n = 5;
-    bool ans = binarySearch(arr,0,4,n);
+    bool ans = binarySearch(arr,0,8,n);
     if(ans){
         cout << "Found" << endl;
     }
