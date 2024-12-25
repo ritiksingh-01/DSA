@@ -95,17 +95,17 @@ cin >> n;
 // 3	2	1	
 // 4	3	2	1	
 
-// while (i <= n){
-//     int j = 1;
-//     // int a = i ;
-//     while (j <= i){
-//         cout << i -j+1 <<"\t";
-//         // a++;
-//         j++;
-//     }
-//     cout << endl;
-//     i++;
-// }
+while (i <= n){
+    int j = 1;
+    // int a = i ;
+    while (j <= i){
+        cout << i -j+1 <<"\t";
+        // a++;
+        j++;
+    }
+    cout << endl;
+    i++;
+}
 
 //    *
 //   **
@@ -150,26 +150,26 @@ cin >> n;
 // 1234321
 
 
-while (i <= n){
-    int sp = n-i ;
-    while (sp){
-        cout<<" ";
-        sp--;
-    }
-    int j = 1;
-    while (j <=i){
-        cout << j;
-        j++;
-    }
-    int k = i-1 ;
-    // int a = j ;
-    while (k){
-        cout << k ;
-        k--;
-    }
-    cout << endl;
-    i++;
-}
+// while (i <= n){
+//     int sp = n-i ;
+//     while (sp){
+//         cout<<" ";
+//         sp--;
+//     }
+//     int j = 1;
+//     while (j <=i){
+//         cout << j;
+//         j++;
+//     }
+//     int k = i-1 ;
+//     // int a = j ;
+//     while (k){
+//         cout << k ;
+//         k--;
+//     }
+//     cout << endl;
+//     i++;
+// }
 
 return 0 ;
 }
