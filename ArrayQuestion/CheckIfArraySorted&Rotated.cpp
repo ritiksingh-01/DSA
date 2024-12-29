@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std ;
 bool check(vector<int> &arr){
-    int count = 0; //counts the pair of elements
+    int count = 0; 
     for (int i = 0 ; i < arr.size();i++){
         if(arr[i-1] > arr[i]){
             count++;
