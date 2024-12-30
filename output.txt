@@ -1,1 +1,1 @@
-Array after left rotate : {3,4,5,1,2,}
+2

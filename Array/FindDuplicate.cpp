@@ -21,8 +21,8 @@ int main (){
 // int arr[5] = {1,2,3,4,4};
 // int arr[5] = {3,3,3,3,3};
 // int arr[10] = {2,5,9,6,9,3,8,9,7,1};
-int arr[8] = {4,3,2,7,8,2,3,1};
-int result = findDuplicate(arr , 8);
+int arr[3] = {1,1,1};
+int result = findDuplicate(arr , 3);
 cout << result ;
 
     return 0 ;
