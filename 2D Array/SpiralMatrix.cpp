@@ -1,58 +1,51 @@
-#include<iostream>
-#include<vector>
+#include <bits/stdc++.h>
+
 using namespace std;
-vector<int> spiralPrint(vector<vector<int>> matrix){
-    int row = matrix.size();
-    int col = matrix[0].size();
-    int count = 0 ;
-    int total = row*col;
 
-    vector <int> ans;
+vector<int> printSpiral(vector<vector<int>> mat) {
+  vector<int> ans;
+  int n = mat.size(); 
+  int m = mat[0].size();
+  int top = 0, left = 0, bottom = n - 1, right = m - 1;
+  while (top <= bottom && left <= right) {
+    for (int i = left; i <= right; i++)
+      ans.push_back(mat[top][i]);
 
-    int startingRow = 0;
-    int startingCol = 0;
-    int endingRow = row - 1 ;
-    int endingCol = col - 1;
-    while( count < total){
+    top++;
+    for (int i = top; i <= bottom; i++)
+      ans.push_back(mat[i][right]);
 
-        for (int i = startingCol ;count < total && i <= endingCol ; i++){
-            ans.push_back(matrix[startingRow][i]);
-            count++;
-        }
-        startingRow++;
-        for(int i = startingRow ;count < total && i <= endingRow ; i++){
-            ans.push_back(matrix[i][endingCol]);
-            count++;
-        }
-        endingCol--;
-        for(int i = endingCol ;count < total && i >= startingCol ; i--){
-            ans.push_back(matrix[endingRow][i]);
-            count++;
-        }
-        endingRow--;
-        for(int i = endingRow ;count < total && i >= startingRow ; i--){
-            ans.push_back(matrix[i][startingCol]);
-            count++;
-        }
-        startingCol++;
+    right--;
+    if (top <= bottom) {
+      for (int i = right; i >= left; i--)
+       ans.push_back(mat[bottom][i]);
+
+      bottom--;
     }
-    return ans;
-}
+    if (left <= right) {
+      for (int i = bottom; i >= top; i--)
+        ans.push_back(mat[i][left]);
 
-
-int main(){
-int n = 3, m = 3;
-vector<vector<int>> matrix(n, vector<int>(m));
-for (int i = 0; i < n; i++) {
-    for (int j = 0; j < m; j++) {
-        cin >> matrix[i][j];
+      left++;
     }
-}
-cout << "Spiral Matrix is : " << endl ;
-vector <int> ans = spiralPrint(matrix);
-for(int i : ans){
-    cout<< i << " ";
+  }
+  return ans;
 }
 
-    return 0;
+int main() {
+  vector<vector<int>> mat   {{1, 2, 3, 4},
+                             {5, 6, 7, 8},
+	                         {9, 10, 11, 12},
+		                     {13, 14, 15, 16}};
+		                     
+  vector<int> ans = printSpiral(mat);
+
+  for(int i = 0;i<ans.size();i++){
+      
+      cout<<ans[i]<<" ";
+  }
+  
+  cout<<endl;
+  
+  return 0;
 }
