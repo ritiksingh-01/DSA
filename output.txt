@@ -1,1 +1,1 @@
-1 n1 1 n1 2 1 n1 3 3 1 n1 4 6 4 1 n
+The answer is: 60
