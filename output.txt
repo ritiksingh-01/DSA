@@ -1,1 +1,2 @@
-true
+2 4 3 6 
+Length of LL : 4
