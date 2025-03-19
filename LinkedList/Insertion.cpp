@@ -66,6 +66,27 @@ Node * insertAtKth(Node * head ,int el, int k){
     }
     return head;
 }
+
+// insertion before the given value
+
+Node* insertBeforeValue(Node* head , int el , int val){
+    if(head == NULL){
+        return NULL;
+    }
+    if(head -> data == val){
+        return new Node(el , head);
+    }
+    Node * temp = head;
+    while(temp-> next != NULL){
+        if(temp-> next -> data == val){
+            Node * x = new Node(el , temp-> next);
+            temp->next = x;
+            break;
+        }
+        temp = temp->next;
+    }
+    return head;
+}
 int main(){
     vector<int> arr = {2,3,4,6};
     Node* head = new Node(arr[0]);
@@ -85,6 +106,9 @@ int main(){
     print(head);
     cout << endl << "After inserting at kth place : ";
     head = insertAtKth(head , 5 , 5);
+    print(head);
+    cout << endl << "After inserting before the value : ";
+    head = insertAtKth(head , 4 , 5);
     print(head);
     return 0;
 }
