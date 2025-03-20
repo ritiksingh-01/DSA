@@ -1,5 +1,1 @@
-Before : 2 3 4 6 
-After inserting element at head : 1 2 3 4 6 
-After inserting element at tail : 1 2 3 4 6 7 
-After inserting at kth place : 1 2 3 4 5 6 7 
-After inserting before the value : 1 2 3 4 4 5 6 7 
+2 4 3 6 
