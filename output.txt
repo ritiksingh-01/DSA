@@ -1,3 +1,2 @@
-2 4 3 6 
-After inserting before head : 1 2 4 3 6 
-After inserting before tail : 1 2 4 3 5 6 
+Before : 2 4 3 6 
+After reverse using brute force approach : 6 3 4 2 
