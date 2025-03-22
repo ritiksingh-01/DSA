@@ -1,2 +1,1 @@
-Before : 2 4 3 6 
-After reverse using brute force approach : 6 3 4 2 
+After adding two number : 7 0 0 0 1 
