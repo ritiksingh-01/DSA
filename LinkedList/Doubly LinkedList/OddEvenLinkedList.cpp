@@ -36,10 +36,19 @@ void print(Node* head){
     }
 }
 Node * oddEvenLL(Node * head){
+    if(head == NULL || head-> next == NULL) return head;
     Node * temp = head->next;
-    while(temp -> next != NULL){
-        
+    Node * odd = head;
+    Node * even = head-> next;
+    Node * evenHead = even;
+    while(even != NULL && even->next != NULL){
+        odd-> next = odd-> next-> next;
+        even -> next = even-> next -> next;
+        odd = odd-> next;
+        even = even -> next;
     }
+    odd->next = evenHead;
+    return head;
 }
 int main(){
     vector<int> arr = {1,2,3,4,5,6};

@@ -1,1 +1,2 @@
-After adding two number : 7 0 0 0 1 
+Using brute force appraoch : 0 0 0 0 1 1 1 1 2 2 
+Using brute force appraoch : 0 0 0 0 1 1 1 1 2 2 
