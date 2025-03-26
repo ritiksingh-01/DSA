@@ -1,2 +1,1 @@
-Brute force appraoch : 1
-Optimal appraoch : 1
+4 5 6 
