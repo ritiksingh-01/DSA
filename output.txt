@@ -1,4 +1,2 @@
-Using brute force approach : 
-Length of the loop: 4
-Using optimal approach : 
-Length of the loop: 4
+Using brute force approach : 2
+Using Optimal approach : 2
