@@ -1,1 +1,2 @@
-Length of the loop: 4
+Using brute force approach : 1
+Using Optimal approach : 1
