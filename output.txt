@@ -1,2 +1,2 @@
-Using brute force approach : 2
-Using Optimal approach : 2
+2 3 4 2 2 5 
+After deleting all occurrences of 2 : 3 4 5 
