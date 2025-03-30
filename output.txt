@@ -1,2 +1,2 @@
-Before removing duplicate : 1 1 2 2 3 4 
-After removing duplicate : 1 2 3 4 
+Orignal List : 1 2 3 4 5 6 7 
+After reversing K group : 3 2 1 6 5 4 7 
