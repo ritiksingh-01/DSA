@@ -1,8 +1,17 @@
-Original linked list:
-5 -> 14
-10 -> 4
-12 -> 20 -> 13
-7 -> 17
-Flattened linked list using brute force approach : 4 5 7 10 12 13 14 17 20 
+Original Linked List with Random Pointers:
+Data: 7, Random: 21
+Data: 14, Random: 7
+Data: 21, Random: 28
+Data: 28, Random: 14
 
-Flattened linked list using optimal approach : 4 5 7 10 12 13 14 17 20 
+Cloned Linked List with Random Pointers using brute force approach :
+Data: 7, Random: 21
+Data: 14, Random: 7
+Data: 21, Random: 28
+Data: 28, Random: 14
+
+Cloned Linked List with Random Pointers using optimal approach :
+Data: 7, Random: 21
+Data: 14, Random: 7
+Data: 21, Random: 28
+Data: 28, Random: 14
