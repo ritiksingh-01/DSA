@@ -1,2 +1,8 @@
-Orignal List : 1 2 3 4 5 6 7 
-After rotating K time : 5 6 7 1 2 3 4 
+Original linked list:
+5 -> 14
+10 -> 4
+12 -> 20 -> 13
+7 -> 17
+Flattened linked list using brute force approach : 4 5 7 10 12 13 14 17 20 
+
+Flattened linked list using optimal approach : 4 5 7 10 12 13 14 17 20 
