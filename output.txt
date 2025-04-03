@@ -1,1 +1,1 @@
-Preorder Traversal: E W Y Z X 
+Inorder Traversal: Y W Z E X 
