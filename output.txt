@@ -1,2 +1,1 @@
-1 2 4 5 7 8 
-1 5 7 2 4 8 
+Preorder Traversal: E W Y Z X 
