@@ -10,7 +10,14 @@ int climbStairs(int n) {
 
     return climbStairs(n-1) + climbStairs(n-2); 
 }
+int climb(int n){
+    if(n<=1){
+        return 1;
+    }
 
+    return climb(n-1) + climb(n-2);
+
+}
 int main(){
 
     int n ;
