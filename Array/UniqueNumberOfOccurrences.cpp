@@ -1,27 +1,35 @@
 #include <iostream>
-using namespace std ;
+#include <vector>
+#include <map>
 
-// bool uniqueOccurrences(vector<int>& arr) {
-//         map<int, bool> m;
-//         int n = arr.size();
-//         sort(arr.begin(), arr.end());
-//         for(int i=0; i<n-1; i++){
-//             int cnt = 1;
-//             while(i < n-1 && arr[i] == arr[i+1]){
-//                 cnt++;
-//                 i++;
-//             }
-//             if(m[cnt] == true) return false;
-//             m[cnt] = true;
-            
-//             if(i==n-2 && m[1]==true) return false;
+using namespace std;
 
-//         }
+bool uniqueOccurrences(vector<int>& arr) {
+    map<int, int> occurrenceMap;
 
-//         return true;
-//     }
-int main (){
+    for (int num : arr) {
+        occurrenceMap[num]++;
+    }
 
+    map<int, bool> countMap;
+    for (const auto& pair : occurrenceMap) {
+        int count = pair.second;
+        if (countMap[count]) {
+            return false;
+        }
+        countMap[count] = true;
+    }
 
-    return 0 ;
+    return true;
+}
+
+int main() {
+    vector<int> arr = {1, 2, 2, 1, 1, 3};
+    if (uniqueOccurrences(arr)) {
+        cout << "The number of occurrences of each element is unique." << endl;
+    } else {
+        cout << "The number of occurrences of each element is not unique." << endl;
+    }
+
+    return 0;
 }

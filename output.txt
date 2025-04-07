@@ -1,1 +1,1 @@
-8
+The number of occurrences of each element is unique.
