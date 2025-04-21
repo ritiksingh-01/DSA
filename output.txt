@@ -1,14 +1,8 @@
 Using brute force : 
-{ a b c }
-{ a c b }
-{ b a c }
-{ b c a }
-{ c a b }
-{ c b a }
+{ 1 1 2 }
+{ 1 2 1 }
+{ 2 1 1 }
 Using optimal approach : 
-{ a b c }
-{ a c b }
-{ b a c }
-{ b c a }
-{ c b a }
-{ c a b }
+{ 1 1 2 }
+{ 1 2 1 }
+{ 2 1 1 }
