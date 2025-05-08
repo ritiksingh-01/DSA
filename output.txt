@@ -1,2 +1,2 @@
-Ritik 20003 200
-2
+Total number of customer : 2
+Total balance : 5200
