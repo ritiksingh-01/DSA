@@ -1,2 +1,3 @@
-Total number of customer : 2
-Total balance : 5200
+Invid amount
+Invalid age
+Ritik 20003 200 20
