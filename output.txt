@@ -1,3 +1,1 @@
-Invid amount
-Invalid age
-Ritik 20003 200 20
+rishi 34 58
