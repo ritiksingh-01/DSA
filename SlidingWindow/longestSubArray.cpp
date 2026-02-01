@@ -23,7 +23,19 @@ int subArray(vector<int> arr , int n , int k){
 // optimal solution
 
 int subArray1(vector<int> arr , int n , int k){
-    
+    int l = 0 , r = 0 , sum = 0 , maxLen = 0;
+    while(r < n){
+        sum  = sum + arr[r];
+        if(sum > k){
+            sum = sum - arr[l];
+            l++;
+        }
+        if(sum <= k){
+            maxLen = max(maxLen , r - l + 1);
+            r++;
+        }
+    }
+    return maxLen;
 }
 
 
